@@ -1,3 +1,3 @@
-# Terraform <TODO> examples
+# Terraform AWS <TODO_EXPANDED> Examples
 
-- [Complete](./complete)
+- [Complete](https://github.com/clowdhaus/terraform-aws-<TODO>/tree/main/examples/complete)

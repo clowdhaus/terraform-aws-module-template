@@ -1,8 +1,8 @@
-# Complete <TODO> Example
+# Complete AWS <TODO> Example
 
 Configuration in this directory creates:
 
-- <TODO>
+- <XXX>
 
 ## Usage
 
@@ -45,4 +45,4 @@ No inputs.
 No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-Apache-2.0 Licensed. See [LICENSE](../../LICENSE).
+Apache-2.0 Licensed. See [LICENSE](https://github.com/clowdhaus/terraform-aws-<TODO>/blob/main/LICENSE).
