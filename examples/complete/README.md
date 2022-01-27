@@ -1,4 +1,4 @@
-# Complete AWS <TODO> Example
+# Complete AWS <TODO_EXPANDED> Example
 
 Configuration in this directory creates:
 
