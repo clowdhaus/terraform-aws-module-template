@@ -2,6 +2,27 @@
 
 Terraform module which creates AWS <TODO_EXPANDED> resources.
 
+<!--START--->
+## 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+After creating a new repository from the template and cloning locally:
+
+```bash
+./eject.sh <module-name>
+```
+
+Where `<module-name>` can be extracted from the repository name using the pattern `terraform-aws-<module-name>`.
+
+For example, if the repository name is `terraform-aws-s3-bucket`, then the module name is `s3-bucket` and the associated eject command is:
+
+```bash
+./eject.sh s3-bucket
+```
+
+Note: this message will self destruct upon ejection!
+
+## 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+<!---END--->
 ## Usage
 
 See [`examples`](https://github.com/clowdhaus/terraform-aws-<TODO>/tree/main/examples) directory for working examples to reference:

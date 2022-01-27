@@ -14,4 +14,7 @@ rg '<TODO>' --files-with-matches -t md -t tf | xargs sed -i "s/<TODO>/${MODULE}/
 rg '<TODO_UNDER>' --files-with-matches -t md -t tf | xargs sed -i "s/<TODO_UNDER>/${MODULE_UNDER}/g"
 rg '<TODO_EXPANDED>' --files-with-matches -t md -t tf | xargs sed -i "s/<TODO_EXPANDED>/${MODULE_EXPANDED}/g"
 
+# Remove "howto" section on main README.md
+sed -i '/<!--START/,/END--->/d' README.md
+
 rm ./eject.sh
