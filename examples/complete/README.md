@@ -26,15 +26,23 @@ Note that this example may create resources which will incur monetary charges on
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.30 |
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_<TODO_UNDER>"></a> [<TODO_UNDER>](#module\_<TODO_UNDER>) | ../.. | n/a |
+| <a name="module_<TODO_UNDER>_disabled"></a> [<TODO_UNDER>_disabled](#module\_<TODO_UNDER>\_disabled) | ../.. | n/a |
+| <a name="module_vpc"></a> [vpc](#module\_vpc) | terraform-aws-modules/vpc/aws | ~> 3.0 |
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [aws_caller_identity.current](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/caller_identity) | data source |
 
 ## Inputs
 
