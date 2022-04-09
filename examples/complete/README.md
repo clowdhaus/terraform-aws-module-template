@@ -21,21 +21,21 @@ Note that this example may create resources which will incur monetary charges on
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.1 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.30 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.30 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_<TODO_UNDER>"></a> [<TODO_UNDER>](#module\_<TODO_UNDER>) | ../.. | n/a |
-| <a name="module_<TODO_UNDER>_disabled"></a> [<TODO_UNDER>_disabled](#module\_<TODO_UNDER>\_disabled) | ../.. | n/a |
+| <a name="module_<TODO_UNDER>"></a> [<TODO\_UNDER>](#module\_<TODO\_UNDER>) | ../.. | n/a |
+| <a name="module_<TODO_UNDER>_disabled"></a> [<TODO\_UNDER>\_disabled](#module\_<TODO\_UNDER>\_disabled) | ../.. | n/a |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | terraform-aws-modules/vpc/aws | ~> 3.0 |
 
 ## Resources
