@@ -13,7 +13,23 @@ locals {
   }
 }
 
-data "aws_caller_identity" "current" {}
+################################################################################
+# <TODO_EXPANDED> Module
+################################################################################
+
+module "<TODO_UNDER>_disabled" {
+  source = "../.."
+
+  create = false
+}
+
+module "<TODO_UNDER>" {
+  source = "../.."
+
+  create = false
+
+  tags = local.tags
+}
 
 ################################################################################
 # Supporting Resources
@@ -33,24 +49,6 @@ module "vpc" {
   enable_nat_gateway      = false
   single_nat_gateway      = true
   map_public_ip_on_launch = false
-
-  tags = local.tags
-}
-
-################################################################################
-# <TODO_EXPANDED> Module
-################################################################################
-
-module "<TODO_UNDER>_disabled" {
-  source = "../.."
-
-  create = false
-}
-
-module "<TODO_UNDER>" {
-  source = "../.."
-
-  create = false
 
   tags = local.tags
 }
