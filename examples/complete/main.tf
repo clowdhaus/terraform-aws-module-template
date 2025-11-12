@@ -11,8 +11,8 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  region = "us-east-1"
-  name   = "<TODO>-ex-${basename(path.cwd)}"
+  region = "eu-west-1"
+  name   = "ex-${basename(path.cwd)}"
 
   vpc_cidr = "10.0.0.0/16"
   azs      = slice(data.aws_availability_zones.available.names, 0, 3)
@@ -48,7 +48,7 @@ module "<TODO_UNDER>_disabled" {
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "~> 5.0"
+  version = "~> 6.0"
 
   name = local.name
   cidr = local.vpc_cidr
